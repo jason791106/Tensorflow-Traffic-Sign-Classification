@@ -18,15 +18,15 @@ I build this project using the original image dataset from **German Traffic Sign
 
 ### Folder Structure
 ***
-'''
+```
 data
-    + GTSRB
-	+ Final_Training
-	    + Images
-	+ Final_Test
-	    + Images
-	+ GT-final_test.csv
-'''
+  + GTSRB
+    + Final_Training
+      + Images
+    + Final_Test
+      + Images
+    + GT-final_test.csv
+```
 
 <br />
 
@@ -34,15 +34,15 @@ data
 
 You could get total class number and traffic sigh names for each class by running **GTSRB_class_visualize.py**
 
-'''	
+```
 python GTSRB_class_visualize.py
-'''
+```
 
 If you want to preview some of the images form training data, please run **GTSRB_image_visualize.py**
 
-'''
+```
 python GTSRB_image_visualize.py
-'''
+```
 
 <br />
 
@@ -50,22 +50,22 @@ python GTSRB_image_visualize.py
 
 You should create **GTSRB_test.h5 **and **GTSRB_train.h5** first before you start training.
 
-'''
+```
 python GTSRB_build_h5_dataset.py
-'''
+```
 
 <br />
 
 ## Step4. Training CNN Model
 
-'''
-    python GTSRB_cnn_train.py
-'''
+```
+python GTSRB_cnn_train.py
+```
 
 <br />
 
 ## Step5. Testing CNN Model
 
-'''
-    python GTSRB_cnn_test.py 
-'''
+```
+python GTSRB_cnn_test.py 
+```
